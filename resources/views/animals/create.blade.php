@@ -6,7 +6,7 @@
 </a>
 
 <h3 class="text-center">{{$title}}</h3>
-
+ 
     <div style="padding: 0 5em 0 5em;">
     {!! Form::open(['action' => 'AnimalController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
         <div class="form-group">
